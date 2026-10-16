@@ -1,0 +1,12 @@
+2026-10-15 12:53:40 PS_LOGIN__system log start (Login01)
+2026-10-15 12:53:41 1 1 SAcceptor::StartAcception:m_ListenSocket.Bind
+2026-10-15 12:53:41 InitServer():g_Server.StartAcception
+2026-10-15 12:53:41 3 1 SService::ServiceCtrlDispatcher(): m_pService->Init()
+2026-10-15 12:53:41 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:53:41 1 1 T=000:00:00:000, RC=3,RCS=3, RB=108,RBS=108, SC=1,SCS=1, SB=58,SBS=58
+2026-10-15 12:53:41 mgr server disconnection
+2026-10-15 12:53:41 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:53:41 1 1 T=000:00:00:000, RC=0,RCS=0, RB=0,RBS=0, SC=1,SCS=1, SB=37,SBS=37
+2026-10-15 12:53:41 log system server disconnection
+2026-10-15 12:53:41 PS_LOGIN__system log end (Login01)
+2026-10-15 12:53:41 3 1 SService::ServiceCtrlDispatcher(): service shutdown

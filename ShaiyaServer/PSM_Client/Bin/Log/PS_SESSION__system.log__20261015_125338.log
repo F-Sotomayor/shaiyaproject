@@ -1,0 +1,25 @@
+2026-10-15 12:53:38 PS_SESSION__system log start (Session)
+Module list:
+C:\ShaiyaServer\PSM_Client\Bin\ps_session.exe, loaded at 0x00400000 - 11/09/14 16:30:56
+2026-10-15 12:53:40 connect login
+2026-10-15 12:53:41 connect game
+2026-10-15 12:53:41 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 12:53:41 1 1 T=000:00:00:000, RC=1,RCS=1, RB=58,RBS=58, SC=3,SCS=3, SB=108,SBS=108
+2026-10-15 12:53:41 disconnect login
+2026-10-15 12:53:43 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 12:53:43 1 1 T=000:00:00:000, RC=2,RCS=1, RB=70,RBS=35, SC=3,SCS=1, SB=30,SBS=15
+2026-10-15 12:53:43 disconnect game
+2026-10-15 12:54:11 connect game
+2026-10-15 12:54:11 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 12:54:11 1 1 T=000:00:00:000, RC=2,RCS=0, RB=70,RBS=0, SC=3,SCS=0, SB=30,SBS=0
+2026-10-15 12:54:11 disconnect game
+2026-10-15 12:54:12 connect login
+2026-10-15 12:54:13 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 12:54:13 1 1 T=000:00:00:000, RC=1,RCS=0, RB=58,RBS=0, SC=2,SCS=0, SB=57,SBS=0
+2026-10-15 12:54:13 disconnect login
+2026-10-15 12:54:26 3 1 SERVICE_CONTROL_STOP
+2026-10-15 12:54:26 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:54:26 1 1 T=000:00:00:000, RC=0,RCS=0, RB=0,RBS=0, SC=1,SCS=0, SB=37,SBS=0
+2026-10-15 12:54:26 log system server disconnection
+2026-10-15 12:54:26 PS_SESSION__system log end (Session)
+2026-10-15 12:54:26 3 1 SService::ServiceCtrlDispatcher(): service shutdown

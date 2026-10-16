@@ -1,0 +1,9 @@
+2026-10-14 16:17:09 PS_GAME__system log start (Game01) [GERMANY]
+2026-10-14 16:17:11 connect mgr 1120
+2026-10-14 16:17:11 Server Version : 11093000
+2026-10-14 16:17:11 connect dbagent 1160
+2026-10-14 16:17:11 connect gamelog 1196
+2026-10-14 16:17:11 Market End -----------------------
+2026-10-14 16:17:11 Start CWorldSendThread=31612
+Module list:
+C:\ShaiyaServer\PSM_Client\Bin\ps_game.exe, loaded at 0x00400000 - 11/09/14 17:10:08

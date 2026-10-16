@@ -1,0 +1,8 @@
+2026-10-15 12:53:38 PS_DBAGENT__system log start (DBAgent01)
+2026-10-15 12:53:38 1 1 SAcceptor::StartAcception:m_ListenSocket.Bind
+2026-10-15 12:53:38 InitServer():g_Server.StartAcception
+2026-10-15 12:53:38 initserver() failed
+2026-10-15 12:53:38 3 1 SService::ServiceCtrlDispatcher(): m_pService->Init()
+2026-10-15 12:53:38 PS_DBAGENT__system log end (DBAgent01)
+
+2026-10-15 12:53:38 3 1 SService::ServiceCtrlDispatcher(): service shutdown

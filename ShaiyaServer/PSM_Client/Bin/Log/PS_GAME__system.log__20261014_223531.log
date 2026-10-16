@@ -1,0 +1,773 @@
+2026-10-14 22:35:31 PS_GAME__system log start (Game01) [GERMANY]
+2026-10-14 22:35:32 connect mgr 1412
+2026-10-14 22:35:32 Server Version : 11093000
+2026-10-14 22:35:32 connect dbagent 1416
+2026-10-14 22:35:32 connect gamelog 1428
+2026-10-14 22:35:32 Market End -----------------------
+2026-10-14 22:35:32 Start CWorldSendThread=22140
+Module list:
+C:\ShaiyaServer\PSM_Client\Bin\ps_game.exe, loaded at 0x00400000 - 11/09/14 17:10:08
+2026-10-15 11:29:27 ## WorldDB Dump, TimeOver:36844984
+
+
+=== GenerateExceptionHandler ========================================
+2026-10-15 11:29:27 Exception !!!, code=0x00000000, address=0x004EE9E1
+Minidump write end.....................
+0x004EE9E1 ps_game.exe: <unknown symbol>
+0x77DF3376 ntdll.dll: ZwQueryInformationProcess + 38
+0x77DF348C ntdll.dll: NtUnmapViewOfSection + 12
+Stack trace end.....................
+
+Stack trace(all thread) begin.....................
+
+Module list:
+C:\ShaiyaServer\PSM_Client\Bin\ps_game.exe, loaded at 0x00400000 - 11/09/14 17:10:08
+Error: Set image path attempts to access 'ps_game.exe' failed: 0x0 - The operation completed successfully.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Error                                          ps_game.exe
+Error: Change all symbol paths attempts to access 'ps_game.pdb' failed: 0x2 - The system cannot find the file specified.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Error                                          ps_game.pdb
+No .natvis files found at C:\Windows\SYSTEM32\Visualizers.
+No .natvis files found at C:\Windows\system32\config\systemprofile\AppData\Local\Dbg\Visualizers.
+
+Microsoft (R) Windows Debugger Version 10.0.19041.3636 X86
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\ShaiyaServer\PSM_Client\Bin\Log\20261014_223531_ps_game.dmp]
+User Mini Dump File: Only registers, stack and portions of memory are available
+
+Error: Set symbol search path attempts to access 'ps_game.exe' failed: 0x0 - The operation completed successfully.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Error                                          ps_game.exe
+Error: Change all symbol paths attempts to access 'ps_game.pdb' failed: 0x2 - The system cannot find the file specified.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Error                                          ps_game.pdb
+Symbol search path is: ps_game.pdb
+Executable search path is: ps_game.exe
+Windows 10 Version 19045 MP (32 procs) Free x86 compatible
+Product: WinNt, suite: SingleUserTS
+19041.1.amd64fre.vb_release.191206-1406
+Machine Name:
+Debug session time: Thu Oct 15 11:29:28.000 2026 (UTC - 3:00)
+System Uptime: 0 days 18:08:09.080
+Process Uptime: 0 days 12:54:00.000
+.....................................................
+Unable to add extension DLL: ntsdexts
+Unable to add extension DLL: uext
+Unable to add extension DLL: exts
+SECURE: File not allowed to be loaded - C:\Windows\SYSTEM32\dbghelp.dll
+Error code: Win32 error 0n5
+The call to LoadLibrary(ext) failed, Win32 error 0n2
+    "The system cannot find the file specified."
+Please check your debugger configuration and/or network access.
+This dump file has an exception of interest stored in it.
+The stored exception information can be accessed via .ecxr.
+(60c4.3e78): Unknown exception - code 00000000 (first/second chance not available)
+For analysis of this file, run !analyze -v
+
+thread count = 78
+thread 0(27004)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x77977092 sechost.dll: RegisterServiceCtrlHandlerExW + 594
+0x779890EE sechost.dll: I_ScIsSecurityProcess + 9566
+0x7798612C sechost.dll: StartServiceCtrlDispatcherA + 108
+0x004FC01B ps_game.exe: <unknown symbol>
+0x004F5A31 ps_game.exe: <unknown symbol>
+
+thread 1(36212)
+0x77DF379C ntdll.dll: ZwWaitForMultipleObjects + 12
+0x77B5BB18 KERNELBASE.dll: WaitForMultipleObjects + 24
+0x004FA938 ps_game.exe: <unknown symbol>
+0x77B596AD KERNELBASE.dll: GetProcAddressForCaller + 77
+0x004E9211 ps_game.exe: <unknown symbol>
+
+thread 2(21100)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x004F5A78 ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 3(33492)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x004E941B ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D003 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 4(15992)
+0x77DF411C ntdll.dll: ZwGetContextThread + 12
+0x75AE7380 dbghelp.dll: SymGetModuleBase
+0x77DF411C ntdll.dll: ZwGetContextThread + 12
+
+thread 5(34780)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x73AC4F32 MSWSOCK.dll: sethostname + 16658
+0x77CB692F WS2_32.dll: WSAAccept + 143
+0x004E9B6E ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D003 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 6(36668)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x004E941B ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D003 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 7(24176)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x004E941B ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D003 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 8(35560)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x004E941B ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D003 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 9(36208)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 10(9076)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 11(17940)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 12(33408)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 13(29560)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 14(11592)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 15(35884)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 16(26648)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 17(5060)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 18(24184)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 19(29940)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 20(27388)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 21(12268)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 22(35008)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 23(28360)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 24(28704)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 25(34212)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 26(29264)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 27(22380)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 28(36200)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 29(19496)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 30(16304)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 31(29656)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 32(28112)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 33(32080)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 34(28508)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 35(4832)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 36(21540)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 37(36268)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 38(30704)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 39(29460)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 40(27640)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 41(34472)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 42(5808)
+0x77DF325C ntdll.dll: NtRemoveIoCompletion + 12
+0x004F2492 ps_game.exe: <unknown symbol>
+0x004C0044 ps_game.exe: <unknown symbol>
+
+thread 43(33352)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x004E941B ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D003 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 44(22140)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x0040374D ps_game.exe: <unknown symbol>
+0x77B3EAAB KERNELBASE.dll: FlsGetValue + 27
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 45(20848)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 46(27272)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 47(28188)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 48(7220)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 49(31032)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 50(22352)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 51(24368)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 52(36316)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 53(36120)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 54(25916)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 55(27932)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 56(33680)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 57(30144)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 58(29492)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 59(36760)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 60(23396)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 61(32696)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 62(22944)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 63(12248)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 64(6044)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 65(25116)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 66(4360)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 67(16000)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 68(7572)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 69(20876)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 70(21416)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 71(6256)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 72(36692)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 73(33296)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 74(27116)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 75(9368)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 76(35368)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+thread 77(36796)
+0x77DF320C ntdll.dll: NtWaitForSingleObject + 12
+0x77B42792 KERNELBASE.dll: WaitForSingleObject + 18
+0x00403ADB ps_game.exe: <unknown symbol>
+0x00528668 ps_game.exe: <unknown symbol>
+0x004E9211 ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x7671FCC9 KERNEL32.DLL: BaseThreadInitThunk + 25
+0x77DE82AE ntdll.dll: RtlGetAppContainerNamedObjectPath + 286
+0x77DE827E ntdll.dll: RtlGetAppContainerNamedObjectPath + 238
+
+Stack trace(all thread) end.....................
+=== GenerateExceptionHandler End ================================================
+
+2026-10-15 11:29:33 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:29:33 1 1 T=012:54:00:000, RC=35,RCS=0, RB=251,RBS=0, SC=40,SCS=0, SB=530,SBS=0
+2026-10-15 11:29:33 discon mgr ((4,64, 251,530)
+2026-10-15 11:29:33 mgr Connection Lost INFO : T=012:54:00:000, RC=35,RCS=0, RB=251,RBS=0, SC=40,SCS=0, SB=530,SBS=0
+2026-10-15 11:29:33 mgr server disconnection
+2026-10-15 11:29:34 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:29:34 1 1 T=012:54:00:000, RC=31,RCS=0, RB=124,RBS=0, SC=34,SCS=0, SB=250,SBS=0
+2026-10-15 11:29:34 discon userlog ((4,64, 124,250)
+2026-10-15 11:29:34 userlog Connection Lost INFO : T=012:54:00:000, RC=31,RCS=0, RB=124,RBS=0, SC=34,SCS=0, SB=250,SBS=0
+2026-10-15 11:29:34 userlog log server disconnection
+2026-10-15 11:29:34 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:29:34 1 1 T=012:54:00:000, RC=54,RCS=0, RB=5764,RBS=0, SC=64,SCS=0, SB=718,SBS=0
+2026-10-15 11:29:34 discon dbagent ((4,64, 5764,718)
+2026-10-15 11:29:34 dbagent Connection Lost INFO : T=012:54:00:000, RC=54,RCS=0, RB=5764,RBS=0, SC=64,SCS=0, SB=718,SBS=0
+2026-10-15 11:29:34 db agent server disconnected...
+2026-10-15 11:29:34 call disconnectAll...
+2026-10-15 11:29:34 m_bReSession ok
+2026-10-15 11:29:34 m_bReDBAgent ok
+2026-10-15 11:29:34 m_bReUserlog ok
+2026-10-15 11:29:34 Market End -----------------------
+2026-10-15 11:29:34 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:29:34 1 1 T=012:54:00:000, RC=31,RCS=0, RB=124,RBS=0, SC=34,SCS=0, SB=408,SBS=0
+2026-10-15 11:29:34 discon gamelog ((4,64, 124,408)
+2026-10-15 11:29:34 gamelog Connection Lost INFO : T=012:54:00:000, RC=31,RCS=0, RB=124,RBS=0, SC=34,SCS=0, SB=408,SBS=0
+2026-10-15 11:29:34 game log server disconnection
+2026-10-15 11:29:44 m_bReGamelog ok
+2026-10-15 11:37:42 3 1 SERVICE_CONTROL_STOP
+2026-10-15 11:37:42 Call save all waiting...
+2026-10-15 11:37:42 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:37:42 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:37:42 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:37:42 1 1 T=000:08:00:000, RC=5,RCS=0, RB=39,RBS=0, SC=5,SCS=0, SB=85,SBS=0
+2026-10-15 11:37:42 1 1 T=000:08:00:000, RC=9,RCS=0, RB=4302,RBS=8, SC=3,SCS=0, SB=45,SBS=0
+2026-10-15 11:37:42 discon dbagent ((4,64, 4302,45)
+2026-10-15 11:37:42 1 1 T=000:08:00:000, RC=1,RCS=0, RB=4,RBS=0, SC=3,SCS=0, SB=45,SBS=0
+2026-10-15 11:37:42 discon userlog ((4,64, 4,45)
+2026-10-15 11:37:42 discon mgr ((4,64, 39,85)
+2026-10-15 11:37:42 mgr Connection Lost INFO : T=000:08:00:000, RC=5,RCS=0, RB=39,RBS=0, SC=5,SCS=0, SB=85,SBS=0
+2026-10-15 11:37:42 mgr server disconnection
+2026-10-15 11:37:42 userlog Connection Lost INFO : T=000:08:00:000, RC=1,RCS=0, RB=4,RBS=0, SC=3,SCS=0, SB=45,SBS=0
+2026-10-15 11:37:42 dbagent Connection Lost INFO : T=000:08:00:000, RC=9,RCS=0, RB=4302,RBS=8, SC=3,SCS=0, SB=45,SBS=0
+2026-10-15 11:37:42 db agent server disconnected...
+2026-10-15 11:37:42 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:37:42 userlog log server disconnection
+2026-10-15 11:37:42 call disconnectAll...
+2026-10-15 11:37:42 1 1 T=000:07:00:000, RC=1,RCS=0, RB=4,RBS=0, SC=2,SCS=0, SB=41,SBS=0
+2026-10-15 11:37:42 discon gamelog ((4,64, 4,41)
+2026-10-15 11:37:42 gamelog Connection Lost INFO : T=000:07:00:000, RC=1,RCS=0, RB=4,RBS=0, SC=2,SCS=0, SB=41,SBS=0
+2026-10-15 11:37:42 game log server disconnection
+2026-10-15 11:37:42 server shutdown Connection INFO : T=013:02:00:000, NumC=0,CMin=0,CMax=1,CAvg=0.00, CAva=1,CReq=1,CCnt=1,DCCnt=1, CTimeT=000:01:00:000,CTimeAvg=000:01:00:000, RBT=1109,RBS=0,RBSC=13,SBT=8620,SBS=0,SBSC=105
+2026-10-15 11:37:42 PS_GAME__system log end (Game01)
+2026-10-15 11:37:42 3 1 SService::ServiceCtrlDispatcher(): service shutdown

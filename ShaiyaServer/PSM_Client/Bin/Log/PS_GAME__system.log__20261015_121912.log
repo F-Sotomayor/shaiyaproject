@@ -1,0 +1,35 @@
+2026-10-15 12:19:12 PS_GAME__system log start (Game01) [GERMANY]
+2026-10-15 12:19:14 connect mgr 1412
+2026-10-15 12:19:14 Server Version : 11093000
+2026-10-15 12:19:14 connect dbagent 1416
+2026-10-15 12:19:14 connect gamelog 1428
+2026-10-15 12:19:14 Market End -----------------------
+2026-10-15 12:19:14 Start CWorldSendThread=27132
+Module list:
+C:\ShaiyaServer\PSM_Client\Bin\ps_game.exe, loaded at 0x00400000 - 11/09/14 17:10:08
+2026-10-15 12:53:33 3 1 SERVICE_CONTROL_STOP
+2026-10-15 12:53:33 Call save all waiting...
+2026-10-15 12:53:33 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:53:33 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:53:33 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:53:33 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:53:33 1 1 T=000:34:00:000, RC=10,RCS=0, RB=151,RBS=0, SC=30,SCS=0, SB=729,SBS=0
+2026-10-15 12:53:33 discon mgr ((3,1236, 151,729)
+2026-10-15 12:53:33 1 1 T=000:34:00:000, RC=32,RCS=0, RB=5913,RBS=2, SC=48,SCS=0, SB=1306,SBS=0
+2026-10-15 12:53:33 discon dbagent ((3,1236, 5913,1306)
+2026-10-15 12:53:33 dbagent Connection Lost INFO : T=000:34:00:000, RC=32,RCS=0, RB=5913,RBS=2, SC=48,SCS=0, SB=1306,SBS=0
+2026-10-15 12:53:33 db agent server disconnected...
+2026-10-15 12:53:33 mgr Connection Lost INFO : T=000:34:00:000, RC=10,RCS=0, RB=151,RBS=0, SC=30,SCS=0, SB=729,SBS=0
+2026-10-15 12:53:33 mgr server disconnection
+2026-10-15 12:53:33 1 1 T=000:34:00:000, RC=6,RCS=0, RB=24,RBS=0, SC=23,SCS=0, SB=2483,SBS=1
+2026-10-15 12:53:33 discon gamelog ((3,1236, 24,2483)
+2026-10-15 12:53:33 gamelog Connection Lost INFO : T=000:34:00:000, RC=6,RCS=0, RB=24,RBS=0, SC=23,SCS=0, SB=2483,SBS=1
+2026-10-15 12:53:33 1 1 T=000:34:00:000, RC=6,RCS=0, RB=24,RBS=0, SC=9,SCS=0, SB=150,SBS=0
+2026-10-15 12:53:33 call disconnectAll...
+2026-10-15 12:53:33 game log server disconnection
+2026-10-15 12:53:33 discon userlog ((3,1236, 24,150)
+2026-10-15 12:53:33 userlog Connection Lost INFO : T=000:34:00:000, RC=6,RCS=0, RB=24,RBS=0, SC=9,SCS=0, SB=150,SBS=0
+2026-10-15 12:53:33 userlog log server disconnection
+2026-10-15 12:53:33 server shutdown Connection INFO : T=000:34:00:000, NumC=0,CMin=0,CMax=1,CAvg=0.00, CAva=1,CReq=1,CCnt=1,DCCnt=1, CTimeT=000:33:00:000,CTimeAvg=000:33:00:000, RBT=38990,RBS=18,RBSC=19,SBT=103838,SBS=50,SBSC=50
+2026-10-15 12:53:33 PS_GAME__system log end (Game01)
+2026-10-15 12:53:33 3 1 SService::ServiceCtrlDispatcher(): service shutdown

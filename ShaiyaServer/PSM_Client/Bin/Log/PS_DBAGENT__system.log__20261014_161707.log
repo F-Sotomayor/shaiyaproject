@@ -1,0 +1,5 @@
+2026-10-14 16:17:07 PS_DBAGENT__system log start (DBAgent01)
+Module list:
+C:\ShaiyaServer\PSM_Client\Bin\ps_dbAgent.exe, loaded at 0x00400000 - 11/09/14 16:20:57
+2026-10-14 16:17:11 ### Connect[13064] : Game[?][0x01078E38], Addr=127.0.0.1, DBJobEnd=1
+2026-10-14 16:17:11 ### DB_SYSTEM_CONNECT[29956] :Game[1][0x01078E38], Name=Game01, Addr=127.0.0.1

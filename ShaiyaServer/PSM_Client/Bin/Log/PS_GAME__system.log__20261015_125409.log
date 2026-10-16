@@ -1,0 +1,37 @@
+2026-10-15 12:54:09 PS_GAME__system log start (Game01) [GERMANY]
+2026-10-15 12:54:10 connect mgr 1412
+2026-10-15 12:54:10 Server Version : 11093000
+2026-10-15 12:54:10 connect dbagent 1416
+2026-10-15 12:54:10 connect gamelog 1428
+2026-10-15 12:54:11 Market End -----------------------
+2026-10-15 12:54:11 Start CWorldSendThread=9292
+2026-10-15 12:54:11 1 1 SAcceptor::StartAcception:m_ListenSocket.Bind
+2026-10-15 12:54:11 InitServer():g_Server.StartAcception
+2026-10-15 12:54:11 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:54:11 1 1 T=000:00:00:000, RC=3,RCS=0, RB=30,RBS=0, SC=2,SCS=0, SB=70,SBS=0
+2026-10-15 12:54:11 discon mgr ((3,1236, 30,70)
+2026-10-15 12:54:11 mgr Connection Lost INFO : T=000:00:00:000, RC=3,RCS=0, RB=30,RBS=0, SC=2,SCS=0, SB=70,SBS=0
+2026-10-15 12:54:11 mgr server disconnection
+2026-10-15 12:54:11 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:54:11 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:54:11 1 1 T=000:00:00:000, RC=0,RCS=0, RB=0,RBS=0, SC=2,SCS=0, SB=105,SBS=0
+2026-10-15 12:54:11 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:54:11 1 1 T=000:00:00:000, RC=0,RCS=0, RB=0,RBS=0, SC=1,SCS=0, SB=37,SBS=0
+2026-10-15 12:54:11 discon gamelog ((3,1236, 0,37)
+2026-10-15 12:54:11 gamelog Connection Lost INFO : T=000:00:00:000, RC=0,RCS=0, RB=0,RBS=0, SC=1,SCS=0, SB=37,SBS=0
+2026-10-15 12:54:11 game log server disconnection
+2026-10-15 12:54:11 1 1 T=000:00:00:000, RC=8,RCS=0, RB=4298,RBS=0, SC=7,SCS=0, SB=220,SBS=0
+2026-10-15 12:54:11 discon dbagent ((3,1236, 4298,220)
+2026-10-15 12:54:11 dbagent Connection Lost INFO : T=000:00:00:000, RC=8,RCS=0, RB=4298,RBS=0, SC=7,SCS=0, SB=220,SBS=0
+2026-10-15 12:54:11 db agent server disconnected...
+2026-10-15 12:54:11 call disconnectAll...
+2026-10-15 12:54:11 discon userlog ((3,1236, 0,105)
+2026-10-15 12:54:11 userlog Connection Lost INFO : T=000:00:00:000, RC=0,RCS=0, RB=0,RBS=0, SC=2,SCS=0, SB=105,SBS=0
+2026-10-15 12:54:11 userlog log server disconnection
+2026-10-15 12:54:11 server shutdown Connection INFO : T=000:00:00:000, NumC=0,CMin=0,CMax=0,CAvg=0.00, CAva=0,CReq=0,CCnt=0,DCCnt=0, CTimeT=000:00:00:000,CTimeAvg=000:00:00:000, RBT=0,RBS=0,RBSC=0,SBT=0,SBS=0,SBSC=0
+2026-10-15 12:54:11 3 1 SService::ServiceCtrlDispatcher(): m_pService->Init()
+2026-10-15 12:54:11 Call save all waiting...
+2026-10-15 12:54:11 Call save all failed dbagent disconnected(user count = 0)...
+2026-10-15 12:54:11 server shutdown Connection INFO : T=000:00:00:000, NumC=0,CMin=0,CMax=0,CAvg=0.00, CAva=0,CReq=0,CCnt=0,DCCnt=0, CTimeT=000:00:00:000,CTimeAvg=000:00:00:000, RBT=0,RBS=0,RBSC=0,SBT=0,SBS=0,SBSC=0
+2026-10-15 12:54:11 PS_GAME__system log end (Game01)
+2026-10-15 12:54:11 3 1 SService::ServiceCtrlDispatcher(): service shutdown

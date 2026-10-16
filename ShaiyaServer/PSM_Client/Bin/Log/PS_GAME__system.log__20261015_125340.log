@@ -1,0 +1,16 @@
+2026-10-15 12:53:40 PS_GAME__system log start (Game01) [GERMANY]
+2026-10-15 12:53:41 connect mgr 1412
+2026-10-15 12:53:41 Server Version : 11093000
+2026-10-15 12:53:43 DB agent connect failed
+2026-10-15 12:53:43 1 1 SAgent::Disconnect: (3, 1236)
+2026-10-15 12:53:43 1 1 T=000:00:00:000, RC=3,RCS=1, RB=30,RBS=15, SC=2,SCS=1, SB=70,SBS=35
+2026-10-15 12:53:43 discon mgr ((3,1236, 30,70)
+2026-10-15 12:53:43 mgr Connection Lost INFO : T=000:00:00:000, RC=3,RCS=1, RB=30,RBS=15, SC=2,SCS=1, SB=70,SBS=35
+2026-10-15 12:53:43 mgr server disconnection
+2026-10-15 12:53:43 server shutdown Connection INFO : T=000:00:00:000, NumC=0,CMin=0,CMax=0,CAvg=0.00, CAva=0,CReq=0,CCnt=0,DCCnt=0, CTimeT=000:00:00:000,CTimeAvg=000:00:00:000, RBT=0,RBS=0,RBSC=0,SBT=0,SBS=0,SBSC=0
+2026-10-15 12:53:43 3 1 SService::ServiceCtrlDispatcher(): m_pService->Init()
+2026-10-15 12:53:43 Call save all waiting...
+2026-10-15 12:53:43 Call save all failed dbagent disconnected(user count = 0)...
+2026-10-15 12:53:43 server shutdown Connection INFO : T=000:00:00:000, NumC=0,CMin=0,CMax=0,CAvg=0.00, CAva=0,CReq=0,CCnt=0,DCCnt=0, CTimeT=000:00:00:000,CTimeAvg=000:00:00:000, RBT=0,RBS=0,RBSC=0,SBT=0,SBS=0,SBSC=0
+2026-10-15 12:53:43 PS_GAME__system log end (Game01)
+2026-10-15 12:53:43 3 1 SService::ServiceCtrlDispatcher(): service shutdown

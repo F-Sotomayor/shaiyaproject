@@ -1,0 +1,54 @@
+2026-10-14 22:35:31 PS_LOGIN__system log start (Login01)
+2026-10-14 23:35:44 cmd_auto server info log
+ user = 0 (0/3000)
+2026-10-14 23:35:44 T=001:00:00:000, NumC=0,CMin=0,CMax=1,CAvg=0.00, CAva=1,CReq=1,CCnt=1,DCCnt=1, CTimeT=000:00:00:000,CTimeAvg=000:00:00:000, RBT=194,RBS=0,RBSC=17,SBT=277,SBS=0,SBSC=25
+2026-10-14 23:35:44 SContext=2(1022/1024)
+SContextSend=0(1024/1024)
+SContextAccept=0(0/0)
+SPacketBufferSendS=1(1023/1024)
+SPacketBufferSendM=0(1024/1024)
+SPacketBufferSendB=2(1022/1024)
+SSyncQueueBufferSend::SQueueSendNode=1(1023/1024)
+SSyncQueueBufferPriority::SQueuePrioritySendNode=0(0/0)
+SSyncQueueStatus::SQueueStatusNode=0(1024/1024)
+2026-10-15 00:35:46 cmd_auto server info log
+ user = 0 (0/3000)
+2026-10-15 00:35:46 T=002:00:00:000, NumC=0,CMin=0,CMax=1,CAvg=0.00, CAva=1,CReq=1,CCnt=1,DCCnt=1, CTimeT=000:00:00:000,CTimeAvg=000:00:00:000, RBT=194,RBS=0,RBSC=17,SBT=277,SBS=0,SBSC=25
+2026-10-15 00:35:46 SContext=2(1022/1024)
+SContextSend=0(1024/1024)
+SContextAccept=0(0/0)
+SPacketBufferSendS=1(1023/1024)
+SPacketBufferSendM=0(1024/1024)
+SPacketBufferSendB=2(1022/1024)
+SSyncQueueBufferSend::SQueueSendNode=1(1023/1024)
+SSyncQueueBufferPriority::SQueuePrioritySendNode=0(0/0)
+SSyncQueueStatus::SQueueStatusNode=0(1024/1024)
+2026-10-15 11:29:33 cmd_auto server info log
+ user = 0 (0/3000)
+2026-10-15 11:29:33 T=012:54:00:000, NumC=0,CMin=0,CMax=1,CAvg=0.00, CAva=1,CReq=1,CCnt=1,DCCnt=1, CTimeT=000:00:00:000,CTimeAvg=000:00:00:000, RBT=194,RBS=0,RBSC=17,SBT=277,SBS=0,SBSC=25
+2026-10-15 11:29:33 SContext=2(1022/1024)
+SContextSend=0(1024/1024)
+SContextAccept=0(0/0)
+SPacketBufferSendS=1(1023/1024)
+SPacketBufferSendM=0(1024/1024)
+SPacketBufferSendB=2(1022/1024)
+SSyncQueueBufferSend::SQueueSendNode=1(1023/1024)
+SSyncQueueBufferPriority::SQueuePrioritySendNode=0(0/0)
+SSyncQueueStatus::SQueueStatusNode=0(1024/1024)
+2026-10-15 11:29:33 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:29:33 1 1 T=012:54:00:000, RC=39,RCS=0, RB=274,RBS=0, SC=994,SCS=0, SB=7972,SBS=0
+2026-10-15 11:29:33 mgr server disconnection
+2026-10-15 11:29:34 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:29:34 1 1 T=012:54:00:000, RC=31,RCS=0, RB=124,RBS=0, SC=32,SCS=0, SB=161,SBS=0
+2026-10-15 11:29:34 log system server disconnection
+2026-10-15 11:29:43 m_bReSession ok
+2026-10-15 11:29:43 m_bReUserlog ok
+2026-10-15 11:37:42 3 1 SERVICE_CONTROL_STOP
+2026-10-15 11:37:42 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:37:42 1 1 T=000:07:00:000, RC=3,RCS=0, RB=61,RBS=0, SC=51,SCS=0, SB=453,SBS=0
+2026-10-15 11:37:42 mgr server disconnection
+2026-10-15 11:37:42 1 1 SAgent::Disconnect: (4, 64)
+2026-10-15 11:37:42 1 1 T=000:07:00:000, RC=1,RCS=0, RB=4,RBS=0, SC=2,SCS=0, SB=41,SBS=0
+2026-10-15 11:37:42 log system server disconnection
+2026-10-15 11:37:42 PS_LOGIN__system log end (Login01)
+2026-10-15 11:37:42 3 1 SService::ServiceCtrlDispatcher(): service shutdown
